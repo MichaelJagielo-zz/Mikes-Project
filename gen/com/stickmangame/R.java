@@ -16,8 +16,35 @@ public final class R {
         public static final int padding_small=0x7f040000;
     }
     public static final class drawable {
-        public static final int ic_action_search=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int books=0x7f020000;
+        public static final int books_fly_one=0x7f020001;
+        public static final int books_fly_two=0x7f020002;
+        public static final int briefcase=0x7f020003;
+        public static final int briefcase_open_three=0x7f020004;
+        public static final int briefcase_open_two=0x7f020005;
+        public static final int bush=0x7f020006;
+        public static final int bush_large=0x7f020007;
+        public static final int bushes=0x7f020008;
+        public static final int facial_expression_content=0x7f020009;
+        public static final int facial_expression_dog=0x7f02000a;
+        public static final int facial_expression_dog_scared=0x7f02000b;
+        public static final int facial_expression_stress=0x7f02000c;
+        public static final int facial_expression_whistling=0x7f02000d;
+        public static final int fire_hydrandt=0x7f02000e;
+        public static final int house=0x7f02000f;
+        public static final int ic_action_search=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int kite=0x7f020012;
+        public static final int rolling_hills=0x7f020013;
+        public static final int scale=0x7f020014;
+        public static final int school_house=0x7f020015;
+        public static final int sidewalk=0x7f020016;
+        public static final int skateboard=0x7f020017;
+        public static final int sun=0x7f020018;
+        public static final int tree=0x7f020019;
+        public static final int tree_two=0x7f02001a;
+        public static final int walk_left=0x7f02001b;
+        public static final int walking_right=0x7f02001c;
     }
     public static final class id {
         public static final int menu_settings=0x7f080000;
