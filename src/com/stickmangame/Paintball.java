@@ -7,7 +7,8 @@ import com.mmm.animation.MMMImage;
 public class Paintball {
 	Color color;
 	MMMImage img;
-	public Paintball() {
-
+	public Paintball(MMMImage i, Color c) {
+		color = c;
+		img = i;
 	}
 }
