@@ -6,12 +6,24 @@ import com.drawable.AbstractDrawableObject;
 import com.drawable.DrawableObject;
 import com.mmm.animation.MMMImage;
 
-public class Collideable extends AbstractDrawableObject {
+public class Dog extends AbstractDrawableObject {
 
-	String id;
 	int x, y, z, scale;
-	Rect [] r;
 	MMMImage img;
+	
+	double speed;
+	// health field not used
+	//int health;
+	
+	Point3D loc;
+	
+	// only the WALK & RUN will likely be used. Hitting dog will cause a penalty
+	// to player, if dog gets hit, he just runs away.
+	// perhaps this enum should be abstracted out and shared with Stickman 
+	public enum expression {
+		WALK, RUN, HIDE, SKATEBOARD;
+	}
+	
 	
 	public int getX() {
 		// TODO Auto-generated method stub
